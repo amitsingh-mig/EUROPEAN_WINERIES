@@ -1009,6 +1009,7 @@ section {
 
 .highlights-img {
   border-radius: var(--radius-lg);
+
   overflow: hidden;
   box-shadow: 0 24px 50px rgba(29, 23, 20, 0.16);
 }
@@ -1214,6 +1215,13 @@ section {
 
 .package-feature-list li i.check-icon {
   color: var(--vine-green);
+  font-size: 1.15rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.package-feature-list li i.cross-icon {
+  color: #dc3545;
   font-size: 1.15rem;
   flex-shrink: 0;
   margin-top: 1px;
@@ -1984,8 +1992,8 @@ section {
 }
 
 .hero-sublabel {
-  font-size: 15px;
-  font-weight: 600;
+  font-size: 17px;
+  font-weight: 700;
   letter-spacing: 3px;
   color: #F3D9A4;
   text-transform: uppercase;
@@ -2083,7 +2091,7 @@ section {
 }
 
 .bento-event-sub {
-  font-size: 17px;
+  font-size: 19px;
   color: #C9CDD6;
   margin-top: 4px;
 }

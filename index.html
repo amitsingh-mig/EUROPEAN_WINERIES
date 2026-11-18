@@ -117,7 +117,7 @@
         <a href="#contact">Contact</a>
       </nav>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSd83eoZTcJ47vxsWen3kd95WZ-i5bSmroDQifJ7yCJSHchmNA/viewform"
-        target="_blank" rel="noopener noreferrer" class="btn-reg-header">Register Interest</a>
+        target="_blank" rel="noopener noreferrer" class="btn-reg-header">Register Your Interest</a>
     </header>
   </div>
 
@@ -158,7 +158,7 @@
           <div class="bento-card-event">
             <div class="bento-label">EVENT</div>
             <div class="bento-event-title">AAHAR 2027</div>
-            <div class="bento-event-sub">2–6 March 2027 New Delhi, India</div>
+            <div class="bento-event-sub">2–6 March 2027 | New Delhi, India</div>
           </div>
 
           <!-- Card 2: Burgundy Gradient Card -->
@@ -559,7 +559,8 @@
             <div class="package-header">
               <span class="package-category-label">Option 1</span>
               <h3 class="package-title">Product Showcase</h3>
-              <p class="package-desc">For wineries that want to introduce their wines without travelling to India.</p>
+              <p class="package-desc">For wineries looking to introduce and showcase their wines in the Indian market
+                without travelling to India.</p>
 
               <div class="package-price-wrap">
                 <span class="package-price">€600</span>
@@ -590,6 +591,11 @@
                   <i class="bi bi-check-circle-fill check-icon"></i>
                   <span>Collection of trade inquiries and buyer contacts forwarded by MIG team post-event.</span>
                 </li>
+
+                <li>
+                  <i class="bi bi-x-circle-fill cross-icon"></i>
+                  <span>No physical presence.</span>
+                </li>
               </ul>
 
               <div class="package-resp-box">
@@ -603,13 +609,13 @@
               </p>
             </div>
           </div>
-
+          <!-- 
           <div class="pt-3">
             <a href="#register" class="package-cta btn-package-outline"
               onclick="selectPackage('Option 1 – Product Showcase (€600 + taxes)')">
               Select Option 1 &bull; €600
             </a>
-          </div>
+          </div> -->
         </div>
 
         <!-- OPTION 2: FULL PRESENCE & B2B -->
@@ -668,12 +674,12 @@
             </div>
           </div>
 
-          <div class="pt-3">
+          <!-- <div class="pt-3">
             <a href="#register" class="package-cta btn-package-wine"
               onclick="selectPackage('Option 2 – Full Presence & B2B (€2,000 + taxes)')">
               Select Option 2 &bull; €2,000
-            </a>
-          </div>
+            </a> 
+          </div> -->
         </div>
 
       </div>
@@ -730,9 +736,17 @@
             </tbody>
           </table>
         </div>
-        <p class="text-center text-muted mt-2" style="font-size:0.8rem;">
+        <!-- <p class="text-center text-muted mt-2" style="font-size:0.8rem;">
           Items requiring clarification should be agreed with MIG before the offer is circulated.
-        </p>
+        </p> -->
+
+
+        <div class="pt-3">
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLSd83eoZTcJ47vxsWen3kd95WZ-i5bSmroDQifJ7yCJSHchmNA/viewform"
+            class="package-cta btn-package-outline">
+            Register Now
+          </a>
+        </div>
       </div>
 
     </div>
@@ -882,7 +896,7 @@
   </section>
 
   <!-- ============ REGISTRATION SECTION ============ -->
-  <section class="reg-section" id="register">
+  <!-- <section class="reg-section" id="register">
     <div class="container-xl-custom">
       <div class="text-center mx-auto reveal" style="max-width:720px; margin-bottom:35px;">
         <p class="section-label justify-content-center"><i class="bi bi-pencil-fill"></i> Registration &amp; Enquiry</p>
@@ -900,7 +914,6 @@
         </div>
       </div>
 
-      <!-- Google Form Container Card -->
       <div class="google-form-wrapper reveal">
         <div class="google-form-top-bar">
           <div class="d-flex align-items-center gap-2">
@@ -941,7 +954,7 @@
       </div>
 
     </div>
-  </section>
+  </section> -->
 
   <!-- ============ CONTACT SECTION ============ -->
   <section class="contact-section-dark" id="contact">
@@ -981,7 +994,6 @@
             <!-- Card 1: Dominique Rousseau -->
             <div class="contact-glass-card">
               <h5 class="contact-card-name">Dominique Rousseau</h5>
-              <div class="contact-card-role">European Coordinator &bull; Media India Group</div>
               <div class="contact-card-item">
                 <i class="bi bi-envelope"></i>
                 <a href="mailto:d.rousseau@mediaindia.eu">d.rousseau@mediaindia.eu</a>
@@ -990,12 +1002,13 @@
                 <i class="bi bi-telephone"></i>
                 <a href="tel:+33744855582">+33 7 44 85 55 82</a>
               </div>
+              <div class="contact-card-role">European Coordinator <br> Media India Group</div>
             </div>
 
             <!-- Card 2: Media India Group -->
             <div class="contact-glass-card">
               <h5 class="contact-card-name">Media India Group</h5>
-              <div class="contact-card-role">Paris &bull; New Delhi &bull; Brussels</div>
+              <div class="contact-card-role">Paris &bull; New Delhi</div>
               <p class="contact-card-support">
                 With Support of: India Trade Promotion Organization (ITPO), Government of India
               </p>
@@ -1010,8 +1023,8 @@
         <!-- Right Column: Vineyard Artwork Card -->
         <div class="contact-artwork-wrap">
           <div class="vineyard-card">
-            <img src="/watercolor_bg.png" alt="European Vineyard Sunset" class="vineyard-card-img" width="520"
-              height="520" loading="lazy">
+            <img src="/footer_image.jpeg" alt="European Vineyard Sunset" class="vineyard-card-img" width="520"
+              height="500" loading="lazy">
           </div>
         </div>
 
@@ -1064,23 +1077,20 @@
   </footer>
 
   <!-- ============ EVENT ANNOUNCEMENT POPUP MODAL ============ -->
-  <div class="event-popup-overlay" id="eventPopup">
+  <!-- <div class="event-popup-overlay" id="eventPopup">
     <div class="event-popup-card">
       <button class="event-popup-close" id="closePopup" aria-label="Close Announcement">&times;</button>
       <div class="event-popup-body">
         <div class="event-popup-icon-wrap">
           <svg class="event-popup-svg" viewBox="0 0 100 100">
-            <!-- Wine glass outline -->
             <path
               d="M35,25 C35,25 38,10 50,10 C62,10 65,25 65,25 C65,45 55,55 55,55 L55,75 L62,75 C64,75 65,76 65,78 C65,80 64,81 62,81 L38,81 C36,81 35,80 35,78 C35,76 36,75 38,75 L45,75 L45,55 C45,55 35,45 35,25 Z"
               fill="none" stroke="var(--burgundy)" stroke-width="4" stroke-linejoin="round" stroke-linecap="round" />
-            <!-- Liquid reflection / wine details inside glass -->
-            <path d="M38,30 C45,35 55,35 62,30" fill="none" stroke="var(--burgundy)" stroke-width="3"
+           <path d="M38,30 C45,35 55,35 62,30" fill="none" stroke="var(--burgundy)" stroke-width="3"
               stroke-linecap="round" />
             <path d="M41,40 C46,43 54,43 59,40" fill="none" stroke="var(--burgundy)" stroke-width="2"
               stroke-linecap="round" />
-            <!-- Grape branch reflection or wine drop -->
-            <path d="M50,18 L50,12" stroke="var(--champagne-gold)" stroke-width="3" stroke-linecap="round" />
+           <path d="M50,18 L50,12" stroke="var(--champagne-gold)" stroke-width="3" stroke-linecap="round" />
           </svg>
         </div>
         <p class="event-popup-eyebrow">AAHAR 2027 &bull; New Delhi, India</p>
@@ -1095,7 +1105,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
